@@ -14,14 +14,12 @@ formHandler.addEventListener("submit",(e)=>{
     let rating9 = document.getElementById("rating9").value;
     let rating10 = document.getElementById("rating10").value;
 
-    //for odd items subtract 1 from the user's response
     rating1 -= 1;
     rating3 -= 1;
     rating5 -= 1;
     rating7 -= 1;
     rating9 -= 1;
     
-    //for even items subtract the user's response from 5;
     rating2 = 5 - rating2;
     rating4 = 5 - rating4;
     rating6 = 5 - rating6;
@@ -35,4 +33,3 @@ formHandler.addEventListener("submit",(e)=>{
     scoreElement.textContent = total
 })
 
-/* javascript */
