@@ -1,21 +1,394 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- meta tags, links to css, etc. -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Usability Test</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://gstatic.com" crossorigin>
+<link href="https://googleapis.com" rel="stylesheet">
+     
 </head>
-<body>
 
-    <!-- visible content goes here -->
-	<h1>Usability Test</h1>
-	<p>See README.md for info</p>
 
-    <!-- load javascript after the page elements render -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
+
+<body style="background-color: black;">
+
+    <div style="background-color: #2ed18d; color: white;">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1">
+                <p style="font-size: 120px; font-family: sans-serif";>
+                    <b>Usability Test</b>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1">
+                <p style="color: black; font-size: 80px; font-family: Arial, Helvetica, sans-serif;">
+                    <b>Shopify</b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" style="color: white; text-align: center;">
+        <div class="col-2">
+            <a href="#test1">Test 1</a>
+        </div>
+        <div class="col-2">
+            <a href="#test2">Test 2</a>
+        </div>
+        <div class="col-2">
+            <a href="#test3">Test 3</a>
+        </div>
+        <div class="col-2">
+            <a href="#test4">Test 4</a>
+        </div>
+        <div class="col-2">
+            <a href="#test5">Test 5</a>
+        </div>
+        <div class="col-2">
+            <a href="#SUS">SUS Score</a>
+        </div>
+    </div>
+    <br>
+    <div class="row justify-content-center">
+        <div id="test1"></div>
+        <div class="offset-0 offset-2-lg col-12 col-8-lg">
+            <img src="test1.png"
+                style="width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;"
+                alt="the shopify main page">
+        </div>
+
+        <div class="mb-4"></div>
+        <div class="mb-4 row" style="font-size: large; text-align: center;">
+            <div class="col-2">
+            </div>
+            <div class="col-2" style="color: white;">
+                Test 1
+            </div>
+            <div class="col-1">
+            </div>
+            <div class="col-2" style="color: white;"">
+                Time: 10 Seconds
+            </div>
+            <div class=" col-1">
+            </div>
+            <div class="col-2" style="color: white;">
+                Task: Find Shopify Products
+            </div>
+        </div>
+        <div class="mb-4 row justify-content-center">
+            <div class="col-1 col-2-lg"></div>
+            <div class="col-10 col-8-lg" style="background-color: #2ed18d; border-radius: 15px;">
+                <p>Powder biscuit topping apple pie chupa chups lollipop shortbread powder candy. Bonbon liquorice candy
+                    jujubes sesame snaps topping sugar plum jelly-o. Fruitcake candy jujubes pastry icing. Sesame snaps
+                    ice
+                    cream fruitcake ice cream lollipop halvah gummies. Sesame snaps gingerbread marshmallow macaroon
+                    marzipan icing. Tiramisu biscuit jujubes liquorice candy canes oat cake cheesecake gingerbread
+                    dessert.
+                    Fruitcake fruitcake toffee chocolate cake biscuit carrot cake chocolate cake. Chocolate cheesecake
+                    jelly
+                    beans soufflé soufflé candy canes croissant. Danish donut cookie biscuit topping. Marshmallow
+                    lollipop
+                    carrot cake macaroon cake.</p>
+            </div>
+            <div class="col-1 col-2-lg"></div>
+        </div>
+        <div class="mb-4"></div>
+        <div class="row justify-content-center">
+            <div id="test2"></div>
+            <div class="offset-0 offset-2-lg col-12 col-8-lg">
+                <img src="test2.png"
+                    style="width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;"
+                    alt="the shopify products page">
+            </div>
+            <div class="col-1">
+            </div>
+            <div class="mb-4"></div>
+
+            <div class="mb-4 row" style="font-size: large; text-align: center;">
+                <div class="col-2">
+                </div>
+                <div class="col-2" style="color: white;">
+                    Test 2
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="col-2" style="color: white;">
+                    Time: 4 Minutes 3 Seconds
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="col-2" style="color: white;">
+                    Task: Find the Magic Spoon Link
+                </div>
+            </div>
+            <div class="mb-4 row justify-content-center">
+                <div class="col-1 col-2-lg"></div>
+                <div class="col-10 col-8-lg" style="background-color: #2ed18d; border-radius: 15px;">
+                    <p>Powder biscuit topping apple pie chupa chups lollipop shortbread powder candy. Bonbon liquorice
+                        candy
+                        jujubes sesame snaps topping sugar plum jelly-o. Fruitcake candy jujubes pastry icing. Sesame
+                        snaps ice
+                        cream fruitcake ice cream lollipop halvah gummies. Sesame snaps gingerbread marshmallow macaroon
+                        marzipan icing. Tiramisu biscuit jujubes liquorice candy canes oat cake cheesecake gingerbread
+                        dessert.
+                        Fruitcake fruitcake toffee chocolate cake biscuit carrot cake chocolate cake. Chocolate
+                        cheesecake jelly
+                        beans soufflé soufflé candy canes croissant. Danish donut cookie biscuit topping. Marshmallow
+                        lollipop
+                        carrot cake macaroon cake.</p>
+                </div>
+                <div class="col-1 col-2-lg"></div>
+            </div>
+            <div class="mb-4"></div>
+            <div class="row justify-content-center">
+                <div class="col-1">
+                </div>
+                <div id="test3"></div>
+                <div class="offset-0 offset-2-lg col-12 col-8-lg">
+                    <img src="test3.png"
+                        style="width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;"
+                        alt="the magic magic crunch cup">
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="mb-4"></div>
+
+                <div class="mb-4 row" style="font-size: large; text-align: center;">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2" style="color: white;">
+                        Test 3
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="col-2" style="color: white;">
+                        Time: 4 Minutes 23 Seconds
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="col-2" style="color: white;">
+                        Task: Add the Magic Crunch Cup to the cart
+                    </div>
+                </div>
+                <div class="mb-4 row justify-content-center">
+                    <div class="col-1 col-2-lg"></div>
+                    <div class="col-10 col-8-lg" style="background-color: #2ed18d; border-radius: 15px;">
+                        <p>Powder biscuit topping apple pie chupa chups lollipop shortbread powder candy. Bonbon
+                            liquorice candy
+                            jujubes sesame snaps topping sugar plum jelly-o. Fruitcake candy jujubes pastry icing.
+                            Sesame snaps ice
+                            cream fruitcake ice cream lollipop halvah gummies. Sesame snaps gingerbread marshmallow
+                            macaroon
+                            marzipan icing. Tiramisu biscuit jujubes liquorice candy canes oat cake cheesecake
+                            gingerbread dessert.
+                            Fruitcake fruitcake toffee chocolate cake biscuit carrot cake chocolate cake. Chocolate
+                            cheesecake jelly
+                            beans soufflé soufflé candy canes croissant. Danish donut cookie biscuit topping.
+                            Marshmallow lollipop
+                            carrot cake macaroon cake.</p>
+                    </div>
+                    <div class="col-1 col-2-lg"></div>
+                </div>
+                <div class="mb-4"></div>
+                <div class="row justify-content-center">
+                    <div class="col-1"></div>
+                    <div id="test4"></div>
+                    <div class="offset-0 offset-2-lg col-12 col-8-lg">
+                        <img src="test4.png"
+                            style="width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;"
+                            alt="the protein pastry page">
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="mb-4"></div>
+
+                    <div class="mb-4 row" style="font-size: large; text-align: center;">
+                        <div class="col-2">
+                        </div>
+                        <div class="col-2" style="color: white;">
+                            Test 4
+                        </div>
+                        <div class="col-1">
+                        </div>
+                        <div class="col-2" style="color: white;">
+                            Time: 33 Seconds
+                        </div>
+                        <div class="col-1">
+                        </div>
+                        <div class="col-2" style="color: white;">
+                            Task: Find the amount of protein in a Magic Spoon pastry
+                        </div>
+                    </div>
+                    <div class="mb-4 row justify-content-center">
+                        <div class="col-1 col-2-lg"></div>
+                        <div class="col-10 col-8-lg" style="background-color: #2ed18d; border-radius: 15px;">
+                            <p>Powder biscuit topping apple pie chupa chups lollipop shortbread powder candy. Bonbon
+                                liquorice candy
+                                jujubes sesame snaps topping sugar plum jelly-o. Fruitcake candy jujubes pastry icing.
+                                Sesame snaps ice
+                                cream fruitcake ice cream lollipop halvah gummies. Sesame snaps gingerbread marshmallow
+                                macaroon
+                                marzipan icing. Tiramisu biscuit jujubes liquorice candy canes oat cake cheesecake
+                                gingerbread dessert.
+                                Fruitcake fruitcake toffee chocolate cake biscuit carrot cake chocolate cake. Chocolate
+                                cheesecake jelly
+                                beans soufflé soufflé candy canes croissant. Danish donut cookie biscuit topping.
+                                Marshmallow lollipop
+                                carrot cake macaroon cake.</p>
+                        </div>
+                        <div class="col-1 col-2-lg"></div>
+                    </div>
+                    <div class="mb-4"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-1"></div>
+                        <div id="test5"></div>
+                        <div class="offset-0 offset-2-lg col-12 col-8-lg">
+                            <img src="test5.png"
+                                style="width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;"
+                                alt="the protein pastry page">
+                        </div>
+                        <div class="col-1">
+                        </div>
+                        <div class="mb-4"></div>
+
+                        <div class="mb-4 row" style="font-size: large; text-align: center;">
+                            <div class="col-2">
+                            </div>
+                            <div class="col-2" style="color: white;">
+                                Test 5
+                            </div>
+                            <div class="col-1">
+                            </div>
+                            <div class="col-2" style="color: white;">
+                                Time: 8 Seconds
+                            </div>
+                            <div class="col-1">
+                            </div>
+                            <div class="col-2" style="color: white;">
+                                Task: Locate their Instagram
+                            </div>
+                        </div>
+                        <div class="mb-4 row justify-content-center">
+                            <div class="col-1 col-2-lg"></div>
+                            <div class="col-10 col-8-lg" style="background-color: #2ed18d; border-radius: 15px;">
+                                <p>Powder biscuit topping apple pie chupa chups lollipop shortbread powder candy. Bonbon
+                                    liquorice candy
+                                    jujubes sesame snaps topping sugar plum jelly-o. Fruitcake candy jujubes pastry
+                                    icing.
+                                    Sesame snaps ice
+                                    cream fruitcake ice cream lollipop halvah gummies. Sesame snaps gingerbread
+                                    marshmallow
+                                    macaroon
+                                    marzipan icing. Tiramisu biscuit jujubes liquorice candy canes oat cake cheesecake
+                                    gingerbread dessert.
+                                    Fruitcake fruitcake toffee chocolate cake biscuit carrot cake chocolate cake.
+                                    Chocolate
+                                    cheesecake jelly
+                                    beans soufflé soufflé candy canes croissant. Danish donut cookie biscuit topping.
+                                    Marshmallow lollipop
+                                    carrot cake macaroon cake.</p>
+                            </div>
+                            <div class="col-1 col-2-lg"></div>
+                        </div>
+                        <section id="SUS" class="mt-5 p-4"
+                            style="color: white; border: 1px solid white; border-radius: 10px;">
+                            <h2 class="text-center">SUS Score</h2>
+                            <h3 class="section-subtitle" style="text-align: center;">Score the 10 items from 1 (Strongly
+                                Disagree) to 5 (Strongly
+                                Agree)</h3>
+                            <form class="row mx-auto col-12 col-md-10 col-lg-8 mt-5" action="#" id="form">
+                                <h4 id="score">Your score: <span id="score-value">__</span>%</h4>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating1" name="rating" min="1" max="5" value="2"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I think that I would like to use this system
+                                        frequently.</p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating2" name="rating" min="1" max="5" value="5"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I found the system unnecessarily complex.</p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating3" name="rating" min="1" max="5" value="3"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I thought the system was easy to use.</p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating4" name="rating" min="1" max="2" value="2"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I think that I would need the support of a
+                                        technical person to be
+                                        able to use this system.</p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating5" name="rating" min="1" max="5" value="2"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I found the various functions in this system
+                                        were well integrated.
+                                    </p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating6" name="rating" min="1" max="5" value="2"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I thought there was too much inconsistency in
+                                        this system.</p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating7" name="rating" min="1" max="5" value="1"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I would imagine that most people would learn
+                                        to use this system
+                                        very quickly.</p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating8" name="rating" min="1" max="5" value="4"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I found the system very cumbersome to use.</p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating9" name="rating" min="1" max="5" value="2"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I felt very confident using the system.</p>
+                                </div>
+                                <div class="row col-12 col-md-12 col-lg-12 mt-3">
+                                    <input type="number" id="rating10" name="rating" min="1" max="5" value="3"
+                                        class="col-2 col-md-2 col-lg-2 bg-white text-black border-0 rounded"
+                                        required="">
+                                    <p class="col-10 col-md-10 col-lg-10">I needed to learn a lot of things before I
+                                        could get going with
+                                        this system.</p>
+                                </div>
+                                <div class="row" style="color: black;">secret message hi</div>
+                                <button type="submit" class="update-score-button mx-auto" ;">Calculate Score</button>
+                            </form>
+                        </section>
+                        <div class="row" style="color: black;">if you can see this, no you cant</div>
+                        <!-- load javascript after the page elements render -->
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                            crossorigin="anonymous"></script>
+                        <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
